@@ -10,7 +10,7 @@ object ExamenBigData {
     return liste2
   }
   def liste_double():Unit={
-    val  Maliste = List(List("ecommercemag.fr"," "),List("https://www.journalducm.com/contact/","Payant"),
+    val  maliste1 = List(List("ecommercemag.fr"," "),List("https://www.journalducm.com/contact/","Payant"),
       List("https://www.zatsaz.com/",""),List("https://www.lerevenu.com",""),
       List("https://www.cadre-dirigfdeant-magazine.com/","payant"),
       List("https://www.silicon.fr/services/contact#annoncer/","Payant"),
@@ -19,11 +19,9 @@ object ExamenBigData {
       List("https://www.industrie-mag.com/article4.html","invite"),
       List("https://www.jesuisundev.com/article-invite/","invite"),
       List("https://www.numerama.com/",""))
-    Maliste.foreach(l=>{println(l(0))})
+
 
  }
-
-
 
 
 }
